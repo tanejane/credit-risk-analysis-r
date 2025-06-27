@@ -8,16 +8,16 @@ Using dataset, we:
 - Evaluated metrics (AUC, Accuracy, Log-loss, etc.)
 - Identified thresholds to reduce bad risk cases
 
-## objectives
+## Objectives
 - Analyze credit risk distribution across different financial profiles
 - Identify predictive patterns using statistical and ML models
 - Recommend actionable loan strategies to minimize bad risks
 
-## platforms
+## Tools
 - RStudio
 - ggplot2, dplyr, randomForest, caret, gbm
 
-## summary
+## Summary
 - Bad risk customers have longer durations (~24.3 months) and higher installment (~3.15%)
 - Random Forest AUC: 82.76%
 - GBM AUC: 86.5%
