@@ -1,7 +1,6 @@
-# credit-risk-analysis-r
+# credit-risk-classification-model-r
 A data-driven analysis of loan duration and installment commitment in predicting customer credit risk using classification models such as Random Forest and GBM.
 
-# Credit Risk Analysis
 This project explores how **loan duration** and **installment commitment** influence the **credit risk classification** of bank customers. 
 Using dataset, we:
 - Performed exploratory data analysis (EDA)
@@ -9,16 +8,16 @@ Using dataset, we:
 - Evaluated metrics (AUC, Accuracy, Log-loss, etc.)
 - Identified thresholds to reduce bad risk cases
 
-## Objectives
+## objectives
 - Analyze credit risk distribution across different financial profiles
 - Identify predictive patterns using statistical and ML models
 - Recommend actionable loan strategies to minimize bad risks
 
-## Key Tools
+## platforms
 - RStudio
 - ggplot2, dplyr, randomForest, caret, gbm
 
-## Results Summary
+## summary
 - Bad risk customers have longer durations (~24.3 months) and higher installment (~3.15%)
 - Random Forest AUC: 82.76%
 - GBM AUC: 86.5%
